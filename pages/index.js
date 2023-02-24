@@ -1,7 +1,11 @@
+import AddShoppingListItem from '@/components/AddShoppingListItem';
+import ShoppingLists from '@/components/ShoppingLists';
+
 export default function Home() {
   return (
     <>
-      <h1>Hello World</h1>
+      <AddShoppingListItem />
+      <ShoppingLists />
     </>
   );
 }
