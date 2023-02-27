@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import ShoppingListsItem from './ShoppingListsItem';
 import classes from '../styles/ShoppingLists.module.css';
 
-function ShoppingList() {
+function ShoppingLists() {
   const [data, setData] = useState();
 
   const sendRequest = () => {
@@ -27,4 +27,4 @@ function ShoppingList() {
   );
 }
 
-export default ShoppingList;
+export default ShoppingLists;
